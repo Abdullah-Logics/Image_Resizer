@@ -1,9 +1,9 @@
+import cv2
+
 def by_size():
     width = int(input("Enter Width: "))
     height = int(input("Enter Height:"))
     return (width,height)
-
-import cv2
 
 try:
     path = cv2.imread(input("Enter the path of your image: "),cv2.IMREAD_UNCHANGED)
